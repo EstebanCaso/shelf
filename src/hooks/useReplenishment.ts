@@ -74,7 +74,7 @@ export const useReplenishment = () => {
       // Obtener el teléfono del admin
       const adminPhone = await getAdminPhone();
 
-      // Notificar a n8n si está configurado
+      // Notificar a n8n si está configurado PENDIENTE
       if (N8N_WEBHOOK_URL) {
         try {
           await fetch(N8N_WEBHOOK_URL, {

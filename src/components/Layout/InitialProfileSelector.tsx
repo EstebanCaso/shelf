@@ -126,7 +126,7 @@ const InitialProfileSelector: React.FC = () => {
             </div>
             <button
               type="submit"
-              className="w-full px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-md hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 flex items-center justify-center space-x-2 w-full mx-auto"
             >
               {profiles.length === 0 ? 'Crear y continuar' : 'Crear perfil'}
             </button>

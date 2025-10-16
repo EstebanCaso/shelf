@@ -86,7 +86,7 @@ const InventoryTable: React.FC<InventoryTableProps> = ({
     
     if (result) {
       // Recargar datos para actualizar la pestaña de reabastecimiento
-       // Mostrar notificación de éxito
+       // Mostrar notificación de éxito 
       alert('Solicitud de reabastecimiento múltiple enviada exitosamente');
 
       if (onDataReload) {

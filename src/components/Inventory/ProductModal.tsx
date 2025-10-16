@@ -165,7 +165,6 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, suppliers, onSave,
       [name]: value,
     }));
     
-    // Limpiar error del campo cuando el usuario empiece a escribir
     if (errors[name]) {
       setErrors(prev => ({ ...prev, [name]: '' }));
     }

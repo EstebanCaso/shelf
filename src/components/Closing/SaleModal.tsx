@@ -50,7 +50,7 @@ const SaleModal: React.FC<SaleModalProps> = ({ products, onSave, onClose }) => {
       )
     );
     
-    // Limpiar errores cuando el usuario empiece a escribir
+   
     if (errors[`line_${idx}`]) {
       setErrors(prev => ({ ...prev, [`line_${idx}`]: '' }));
     }

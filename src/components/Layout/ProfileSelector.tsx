@@ -16,7 +16,6 @@ const ProfileSelector: React.FC = () => {
       setProfiles(data);
       if (!profile && data.length > 0) setProfile(data[0]);
     })();
-    // eslint-disable-next-line
   }, []);
 
   const handleSelect = (id: string) => {

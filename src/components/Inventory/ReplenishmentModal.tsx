@@ -42,7 +42,7 @@ const ReplenishmentModal: React.FC<ReplenishmentModalProps> = ({
       quantityInputRef.current.focus();
     }
 
-    // Sugerencia inicial si el producto cambia
+    // Sugerencia inicial si el producto cambia, es el doble del stock minimo q se pone
     setQuantity(product.minStock * 2);
 
     return () => {

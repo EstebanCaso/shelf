@@ -28,7 +28,7 @@ export interface Product {
   supplier?: Supplier;
   description?: string;
   sku?: string;
-  unit: string; // 'pieces', 'kg', 'liters', etc.
+  unit: string; // 'piezas', 'kg', 'litros', etc.
   createdAt: Date;
   updatedAt: Date;
   profileId: string;
@@ -54,7 +54,7 @@ export interface StockAlert {
 
 export interface DayClosing {
   id: string;
-  date: string; // ISO date string
+  date: string;
   totalSales: number;
   totalValue: number;
   closedBy: string;

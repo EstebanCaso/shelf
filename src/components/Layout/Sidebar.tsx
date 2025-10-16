@@ -29,7 +29,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
       if (!profile && data.length > 0) setProfile(data[0]);
       if (data.length === 0) setShowCreateForm(true);
     })();
-    // eslint-disable-next-line
+    
   }, []);
 
   useEffect(() => {
@@ -75,19 +75,19 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
     try {
       await logout();
     } catch (e) {
-      // Puedes mostrar un mensaje de error si quieres
+      console.error('Error during logout:', e);
     }
-    // Ya no redirigimos, el estado de usuario controlará la pantalla
+  
   };
 
   return (
     <div className="w-64 bg-white border-r border-gray-200 min-h-screen flex flex-col">
       <div className="p-6 flex-1">
         <div className="flex items-center space-x-3 mb-8">
-          <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-            <Package className="w-5 h-5 text-white" />
+          <div className="w-27 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center space-x-2 w-full mx-auto">
+            <Package className="w-10 h-10 text-white mr-2" />
+            <div className="text-2xl font-bold text-white">shelf</div>
           </div>
-          <h2 className="text-xl font-bold text-gray-800">shelf</h2>
         </div>
         
         <nav className="space-y-2">
@@ -111,7 +111,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange }) => {
         </nav>
       </div>
 
-      {/* User section at bottom */}
+      {/* seleccion de usuario hasta abajo de todo */}
       <div className="p-6 border-t border-gray-200 relative">
         <div className="flex items-center space-x-3 mb-4">
           <button

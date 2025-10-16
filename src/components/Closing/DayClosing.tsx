@@ -25,8 +25,7 @@ const DayClosing: React.FC<DayClosingProps> = ({ products, onRecordSale }) => {
 
   // Agrupa ventas por día real
   useEffect(() => {
-    // Aquí deberías cargar las ventas del día real desde la base de datos si es necesario
-    // Por ahora, solo se mantiene en memoria
+   //pendiente
   }, []);
 
   const handleRecordSales = (sales: Omit<Sale, 'id'>[]) => {
@@ -73,7 +72,7 @@ const DayClosing: React.FC<DayClosingProps> = ({ products, onRecordSale }) => {
             </div>
             <button
               onClick={() => setIsModalOpen(true)}
-              className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-md hover:from-orange-600 hover:to-red-600 transition-all duration-200 transform hover:scale-105 flex items-center space-x-2"
+              className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-md hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 flex items-center space-x-2"
               disabled={availableProducts.length === 0}
             >
               <ShoppingCart className="w-4 h-4" />
