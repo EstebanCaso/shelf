@@ -10,6 +10,11 @@ Es capaz de mandar de manera automatica las solicitudes de rebastecimiento que s
 - `src/hooks/` - Hooks personalizados
 - `src/lib/` - Configuración de librerías
 - `src/types/` - Definiciones de tipos TypeScript
+## EJECUCION
+
+El programa no podrá ser ejecutado con solamente clonarlo y descargar dependencias con npm install y npm start, ya que se utilizan API's para la base de datos y en futuro n8n.
+
+Para acceder al programa se puede utilizar este [Link](https://vercel.com/enriquecaso-6705s-projects/shelf) disponible, el proyecto fue desplegado con vercel conectado a github.
 
 ## Tecnologías utilizadas
 
