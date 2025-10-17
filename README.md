@@ -12,9 +12,9 @@ Es capaz de mandar de manera automatica las solicitudes de rebastecimiento que s
 - `src/types/` - Definiciones de tipos TypeScript
 ## EJECUCION
 
-El programa no podrá ser ejecutado con solamente clonarlo y descargar dependencias con npm install y npm start, ya que se utilizan API's para la base de datos y en futuro n8n.
+El programa no se puede ejecutar simplemente clonando el repositorio y corriendo npm install seguido de npm start, ya que depende de APIs externas para la base de datos y, en el futuro, también de n8n.
 
-Para acceder al programa se puede utilizar este [Link](https://shelf-sooty.vercel.app/) disponible, el proyecto fue desplegado con vercel conectado a github.
+Para acceder al programa se puede utilizar este [Link](https://shelf-sooty.vercel.app/) disponible, el proyecto fue desplegado con vercel conectado a Github.
 
 ## Tecnologías utilizadas
 
