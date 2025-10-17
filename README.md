@@ -1,7 +1,6 @@
 # Shelf - Sistema de Inventario
 
-Un sistema de gestión de inventario desarrollado con React, TypeScript y Supabase.
-Es capaz de mandar de manera automatica las solicitudes de rebastecimiento que solicitas a tus proveedores mediante su correo electronico, no es necesario que tu mandes algún correo ni levantar un dedo, la aplicación lo hace todo por ti.
+Sistema de gestión de inventario desarrollado con React, TypeScript y Supabase. Automatiza el envío de solicitudes de rebastecimiento a tus proveedores por correo electrónico, sin necesidad de intervención manual. La aplicación se encarga de todo el proceso por ti.
 
 ## Estructura del proyecto
 
