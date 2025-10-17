@@ -56,7 +56,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ onToggleMode }) => {
           </div>
           <h1 className="text-2xl font-bold text-gray-900 mb-4">¡Cuenta Creada!</h1>
           <p className="text-gray-600 mb-6">
-            Tu cuenta ha sido creada exitosamente. Revisa tu email para confirmar tu cuenta y luego podrás iniciar sesión. (simulado)
+            Tu cuenta ha sido creada exitosamente. Revisa tu email para confirmar tu cuenta y luego podrás iniciar sesión. 
           </p>
           <button
             onClick={onToggleMode}
