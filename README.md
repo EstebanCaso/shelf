@@ -20,7 +20,6 @@ Estos pasos asumen que trabajas en Windows con PowerShell.
 ### Requisitos
 
 - Node.js v18 o superior
-- npm
 - Git
 - Una cuenta en Supabase (https://app.supabase.com)
 
